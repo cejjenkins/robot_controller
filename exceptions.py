@@ -1,13 +1,19 @@
 """Custom exception classes, for better error handling."""
 
+
 class InvalidInputException(Exception):
     """Raises Exception when input is incorrect."""
-    pass 
+
+    pass
+
 
 class InvalidCommandException(Exception):
     """Raises Exception when the command is incorrect."""
-    pass 
+
+    pass
+
 
 class OutsideGridException(Exception):
     """Raises Exception the move would take the robot outside the grid."""
-    pass 
+
+    pass

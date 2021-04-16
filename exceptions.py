@@ -1,3 +1,5 @@
+"""Custom exception classes, for better error handling."""
+
 class InvalidInputException(Exception):
     """Raises Exception when input is incorrect."""
     pass 

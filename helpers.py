@@ -1,4 +1,6 @@
-from exceptions import     InvalidInputException, InvalidCommandException
+"""A few helper functions."""
+
+from exceptions import InvalidInputException, InvalidCommandException
 
 def fix_input_grid(s:str):
     """Splits the input for initial position and grid size."""

@@ -56,6 +56,6 @@ class TestRobot(unittest.TestCase):
     
     def test_14_output(self):
         test_bot = RobotController(fix_input_grid('5 5'), fix_input_start_pos('0 0 E'), fix_input_moves('RFLFFLRF'))
-        test_bot.make_your_moves()
-        test_bot.new_position()
+        test_bot.move()
+        test_bot.position()
         self.assertEqual(test_bot.current_position, '3 1 E')
